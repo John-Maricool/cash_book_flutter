@@ -1,0 +1,1 @@
+const USER_FIRST_TIME = "/USER_FIRST_TIME";

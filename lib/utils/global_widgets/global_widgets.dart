@@ -8,10 +8,14 @@ Widget defaultButtons(
   return ElevatedButton(
       onPressed: pressed,
       style: ElevatedButton.styleFrom(
-          primary: primaryColor, minimumSize: size, shadowColor: primaryColor),
+          backgroundColor: primaryColor,
+          minimumSize: size,
+          shadowColor: primaryColor),
       child: Text(
         text,
         style: const TextStyle(
-            color: backgroundColor, fontSize: smallTextFontSize),
+            color: backgroundColor,
+            fontSize: smallTextFontSize,
+            fontWeight: FontWeight.bold),
       ));
 }

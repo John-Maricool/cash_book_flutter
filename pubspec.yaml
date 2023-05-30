@@ -31,6 +31,17 @@ dependencies:
     sdk: flutter
   get_it: ^7.2.0
   get: ^4.6.5
+  #screen util
+  flutter_screenutil: ^5.7.0
+  #country code picker
+  country_code_picker: ^3.0.0
+  #input formatter
+  mask_text_input_formatter: ^2.4.0
+  # flutter svg
+  flutter_svg: ^2.0.5
+  #pincode
+  pin_code_fields: ^7.4.0
+
 
 
 
@@ -63,6 +74,7 @@ flutter:
   assets: 
     - assets/images/
     - assets/on_boarding/
+    - assets/svg/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

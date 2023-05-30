@@ -1,5 +1,7 @@
 import 'package:cash_book/utils/constants/constants.dart';
+import 'package:cash_book/utils/constants/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../utils/global_widgets/global_widgets.dart';
 
 class IntroScreen extends StatefulWidget {
@@ -86,7 +88,7 @@ class _SwipeableWidgetExampleState extends State<IntroScreen> {
                 defaultButtons(
                     pressed: () {
                       if (_currentPage == 2) {
-                        //Get.offAllNamed(USER_TYPE);
+                        Get.offAllNamed(INPUT_NUMBER_PAGE);
                       } else {
                         if (_currentPage == 1) {
                           setState(() {
